@@ -1,0 +1,99 @@
+body {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;    
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(#dda77b, #721121);
+}
+
+
+#imagen {
+    border-radius: 50%;
+    width: 150px;
+    border: 5px solid #EFB0C9;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 0 0 1px black;
+}
+
+#fecha {
+background-color: #EFB0C9;
+padding: 5px 10px;
+border-radius: 5px;
+margin-top: 12px;
+}
+
+#edad {
+background-color: #EFB0C9;
+padding: 5px 10px;
+border-radius: 5px;
+margin-bottom: 0px;
+}
+
+#cabeza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-image {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("regalo.png");
+    background-size: cover;
+    
+    
+}
+
+.seccionregalo {
+margin-top: 40px;
+}
+
+#gift-image-friends:hover {
+background-image: url("friends.webp")
+}
+
+#gift-image-hot:hover {
+  background-image: url("caliente.webp");
+}
+
+#gift-image-oneword:hover {
+    background-image: url("unapalabra.webp");
+    background-size: cover;
+  }
+
+  #gift-image-malo:hover {
+    background-image: url("malo.webp");
+  }
+  
+  #gift-image-felicidad {
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("regalo.png");
+    background-size: cover;
+    margin-bottom: 30px;
+
+  }
+
+  #gift-image-felicidad:hover {
+    height: 200px;
+    background-image: url("congratitud.webp");
+  }
+
+  a {
+    color: white;
+  }
+  
+#parrafo {
+  font-style: italic;
+  text-align: center;
+  margin: 30px auto 30px auto;
+
+}
